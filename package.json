@@ -2,7 +2,7 @@
   "name": "@systran/systran-slack-bot",
   "version": "1.0.0",
   "description": "SYSTRAN slack bot",
-  "main": "index.js",
+  "main": "systran-slack-bot.js",
   "license": "Apache-2.0",
   "scripts": {
     "prepublish": "gulp",
