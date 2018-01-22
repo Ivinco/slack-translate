@@ -4,6 +4,7 @@ This bot being invited to a Slack channel translates all the messages into the l
 It's based on [Google Translate API](https://www.npmjs.com/package/google-translate-api)
 
 ```Sergey: Привет```
+
 ```translate: Hi```
 
 
@@ -18,8 +19,17 @@ You need to set the target language (`targetLang` var) in the variables when cre
 You need to [create a bot on slack](https://my.slack.com/services/new/bot) and get a [bot access token](https://api.slack.com/tokens).
 Then set it in the `botToken` variable in `slack-translate.js`.
 
-## Start the Slack Bot
+
+### Start the Slack Bot
 
 ```shell
 $ npm start
 ```
+
+Make sure you run:
+
+```shell
+$ npm i
+```
+
+before to install the dependencies.
