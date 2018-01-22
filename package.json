@@ -1,27 +1,20 @@
 {
-  "name": "@systran/systran-slack-bot",
+  "name": "slack-translate",
   "version": "1.0.0",
-  "description": "SYSTRAN slack bot",
-  "main": "systran-slack-bot.js",
+  "description": "slack bot for instant translation of all messages via Google translate API",
+  "main": "slack-translate.js",
   "license": "Apache-2.0",
   "scripts": {
-    "prepublish": "gulp",
-    "start": "node systran-slack-bot.js",
+    "start": "node slack-translate.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "SYSTRAN S.A.",
+  "author": "Ivinco LTD",
   "repository": {
     "type": "git",
     "url": "https://github.com/SYSTRAN/systran-slack-bot.git"
   },
   "dependencies": {
-    "request": "^2.67.0",
+    "google-translate-api": "^2.3.0",
     "slack-client": "^1.5.1"
-  },
-  "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-jshint": "^2.0.0",
-    "jshint": "^2.8.0",
-    "jshint-stylish": "^2.1.0"
   }
 }
